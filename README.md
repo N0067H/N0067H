@@ -1,6 +1,6 @@
 <div align="Center">
 
-![Banner](https://capsule-render.vercel.app/api?type=waving&height=100&text=Welcome%20to%20Noobth&fontAlign=50&fontAlignY=40&color=gradient)<br>
+![Banner](https://capsule-render.vercel.app/api?type=waving&height=100&text=Welcome%20to%20NoobTh&fontAlign=50&fontAlignY=40&color=gradient)<br>
 ![C/C++](https://img.shields.io/badge/C/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![CSharp](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
