@@ -1,4 +1,3 @@
 <div align="Center">
-
-![Banner](https://capsule-render.vercel.app/api?type=waving&height=100&text=Welcome%20to%20NoobTh&fontAlign=50&fontAlignY=40&color=gradient)<br>
+[Click Me](https://noobth.notion.site/noobth/About-Me-392dd2b050a64f9ab64aeefe4669b9ba)<br>
 </div>
