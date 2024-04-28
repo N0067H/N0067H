@@ -31,7 +31,10 @@
   <!--NodeJS-->
   <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
 
-  <h1>Learend but Fucked</h1>
+  <h1>Fucked</h1>
+  <!--Python-->
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+  
   <!--Haskell-->
   <img src="https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white">
   
