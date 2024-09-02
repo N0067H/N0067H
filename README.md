@@ -1,6 +1,6 @@
 # 👋 Hello, I'm DevLCW
 
-Curious about Hacking or Security and Developer, DevOps (will)
+Curious about Hacking or Security and Developer, DevOps
 so, it's more information of me
 ```rust
 
