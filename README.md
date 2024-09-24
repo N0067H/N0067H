@@ -1,4 +1,6 @@
-Tech: C++, C#, Node.js
+## SeungYup Ryu
+### Tech
+C++, C#, Node.js
 
-Favorites: C++, Rust, Go, Haskell
-
+### Favorites
+C++, Rust, Go, Haskell
