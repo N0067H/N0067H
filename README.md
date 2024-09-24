@@ -1,32 +1,49 @@
-![Main](https://capsule-render.vercel.app/api?type=waving&height=100&text=NoobTh&fontAlign=50&fontAlignY=40&color=block)
-<div>
-  <h1>Skills</h1>
-  <!--C++-->
-  <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+```cpp
+#include <iostream>
+#include <string>
+#include <vector>
 
-  <!--C#-->
-  <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white">
-  
-  <!--Rust-->
-  <img src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white">
+class Me {
+private:
+	std::string name;
+	std::vector<std::string> tech;
+	std::vector<std::string> favorites;
 
-  <br>
-  
-  <!--.Net-->
-  <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white">
+public:
+	  Me()
+        : name{	"SeungYup Ryu" },
+		      tech{ "C++", "C#", "Node.js" },
+		      favorites{ "C++", "Rust", "Go", "Haskell" }
+    {}
 
-  <!--Qt-->
-  <img src="https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white">
+    static friend auto operator<<(std::ostream& os, const Me& me) -> std::ostream& {
+        os << "Me {\n";
+        os << "    name: \"" << me.name << "\",\n";
+        os << "    tech: [\n";
+        for (std::size_t i = 0; i < me.tech.size(); ++i) {
+            os << "        \"" << me.tech[i] << "\"";
+            if (i < me.tech.size() - 1) {
+                os << ",";
+            }
+            os << "\n";
+        }
+        os << "    ]\n";
+        os << "    favorites: [\n";
+        for (std::size_t i = 0; i < me.favorites.size(); ++i) {
+            os << "        \"" << me.favorites[i] << "\"";
+            if (i < me.favorites.size() - 1) {
+                os << ",";
+            }
+            os << "\n";
+        }
+        os << "    ]\n";
+        os << "}\n";
+        return os;
+    }
+};
 
-  <!--Postgres-->
-  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white">
-  
-  <h1>Just favorites</h1>
-  <!--Typescript-->
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">
-
-  <!--Haskell-->
-  <img src="https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white">
-  
-  <br>
-</div>
+int main() {
+	Me me{};
+	std::cout << me << '\n';
+}
+```
