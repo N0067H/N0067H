@@ -1,6 +1,10 @@
-## SeungYup Ryu
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge)
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge)
-![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge)
-
-
+# SeungYup Ryu
+## Languages
+- C++
+> C++ is my first programming language.
+- C#
+- Rust
+- TypeScript
+> Idioms of TypeScript is really beautiful.
+- V (Not main, Just favorite)
+> When I was studying PLT, I often referred to the source code of early version of the V language.
