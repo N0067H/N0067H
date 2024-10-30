@@ -1,5 +1,4 @@
 # SeungYup Ryu
-## Languages
 - C++
 > C++ is my first programming language.
 - C#
