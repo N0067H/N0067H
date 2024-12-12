@@ -1,5 +1,4 @@
-# SeungYup Ryu
-- C++
-- C#
-- Rust
-- TypeScript
+# NoobTh (SeungYup Ryu)
+`C++` `Rust` `TypeScript` `Go` \
+`Gin` `Axum` \
+`Vue`
