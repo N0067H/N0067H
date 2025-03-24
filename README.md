@@ -1,5 +1,6 @@
 # NoobTh
-```
+
+```rust
 #[derive(Debug)]
 struct Me<'a> {
     name: String,
