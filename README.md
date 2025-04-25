@@ -1,4 +1,5 @@
 # NoobTh
+A student interested in Low-level, Compilers, etc.
 
 ```rust
 #[derive(Debug)]
