@@ -5,7 +5,7 @@ A student interested in Low-level, Compilers, etc.
 #[derive(Debug)]
 struct Me<'a> {
     name: String,
-    main_tech: Vec<&'a str>,
+    tech: Vec<&'a str>,
     favorite_lang: Vec<&'a str>,
 }
 
@@ -13,7 +13,7 @@ impl<'a> Default for Me<'a> {
     fn default() -> Self {
         Me {
             name: "NoobTh".to_string(),
-            main_tech: vec![
+            tech: vec![
                 "Go",
                 "C++",
                 "C#",
