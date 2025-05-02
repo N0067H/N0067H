@@ -32,4 +32,4 @@ fn main() {
 }
 ```
 
-> *thx to [@wHoIsDReAmer](https://github.com/wHoIsDReAmer) for the profile reference.*
+> ***thx to [@wHoIsDReAmer](https://github.com/wHoIsDReAmer) for the profile reference.***
