@@ -1,7 +1,5 @@
 # NoobTh
-> As a programmer for 8 years I’ve grown by obsessing over the question “Why does this work the way it does?”<br>
-> While others focus on results, I’ve spent my time dissecting code flows, runtime behaviors, and language mechanisms.<br>
-> My goal is to be a developer who solves problems with evidence and logic.<br>
+> As a programmer for 8 years
 
 ```rust
 #[derive(Debug)]
