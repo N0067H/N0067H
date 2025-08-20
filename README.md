@@ -1,6 +1,4 @@
 # NoobTh
-> As a programmer for 8 years
-
 ```rust
 #[derive(Debug)]
 struct Me<'a> {
