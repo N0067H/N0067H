@@ -12,12 +12,13 @@ impl<'a> Default for Me<'a> {
         Me {
             name: "NoobTh".to_string(),
             tech: vec![
-                "Go",
                 "C++",
-                "C#",
+                "Rust",
+                "Go",
+                "Java",
             ],
             favorite_lang: vec![
-                "C++", "Rust", "C#", "Typescript"
+                "C++", "Rust", "Go", "Typescript", "Java"
             ],
         }
     }
