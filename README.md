@@ -1,6 +1,4 @@
 # NoobTh
-<img alt="image" src="https://imgs.xkcd.com/comics/cant_sleep.png" />
-
 ```rust
 #[derive(Debug)]
 struct Me<'a> {
@@ -32,3 +30,7 @@ fn main() {
 ```
 
 > ***thx to [@wHoIsDReAmer](https://github.com/wHoIsDReAmer) for the profile reference.***
+
+---
+
+<img alt="image" src="https://imgs.xkcd.com/comics/cant_sleep.png" />
