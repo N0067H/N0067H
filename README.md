@@ -1,5 +1,5 @@
 # NoobTh
-https://noobth.dev/
+<a href-"https://noobth.dev/" target="_blank">https://noobth.dev/</a>
 ```rust
 #[derive(Debug)]
 struct Me<'a> {
