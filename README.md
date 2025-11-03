@@ -1,4 +1,5 @@
 # NoobTh
+https://noobth.dev/
 ```rust
 #[derive(Debug)]
 struct Me<'a> {
