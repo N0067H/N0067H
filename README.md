@@ -12,14 +12,12 @@ impl<'a> Default for Me<'a> {
     fn default() -> Self {
         Me {
             name: "NoobTh".to_string(),
-            tech: vec![
+            lang: vec![
                 "C++",
                 "Rust",
                 "Go",
-                "Java",
-            ],
-            favorite_lang: vec![
-                "C++", "Rust", "Go", "Typescript", "Java"
+                "TypeScript",
+                "Java"
             ],
         }
     }
