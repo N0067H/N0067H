@@ -13,11 +13,9 @@ impl<'a> Default for Me<'a> {
         Me {
             name: "NoobTh".to_string(),
             lang: vec![
-                "C++",
-                "Rust",
-                "Go",
-                "TypeScript",
-                "Java"
+                "C++", "Rust", "Go",
+                "Java", "C#",
+                "JavaScript", "TypeScript"
             ],
         }
     }
