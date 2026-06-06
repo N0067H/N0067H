@@ -1,5 +1,4 @@
 # NoobTh
-<a href="https://noobth.dev/" target="_blank">https://noobth.dev/</a>
 ```rust
 #[derive(Debug)]
 struct Me<'a> {
@@ -8,15 +7,16 @@ struct Me<'a> {
     favorite_lang: Vec<&'a str>,
 }
 
-impl<'a> Default for Me<'a> {
+impl Default for Me {
     fn default() -> Self {
-        Me {
-            name: "NoobTh".to_string(),
-            lang: vec![
-                "C++", "Rust", "Go",
-                "Java", "C#",
-                "JavaScript", "TypeScript"
-            ],
+        Self {
+            name: "NoobTh".into(),
+            languages: vec![
+                "C++",
+                "Go",
+                "Rust",
+                "Java"
+            ]
         }
     }
 }
@@ -26,8 +26,6 @@ fn main() {
 }
 ```
 
-> ***thx to [@wHoIsDReAmer](https://github.com/wHoIsDReAmer) for the profile reference.***
-
 ---
 
-<img alt="image" src="https://imgs.xkcd.com/comics/cant_sleep.png" />
+> inspired by [@wHoIsDReAmer](https://github.com/wHoIsDReAmer)
