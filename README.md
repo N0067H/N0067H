@@ -3,11 +3,10 @@
 #[derive(Debug)]
 struct Me<'a> {
     name: String,
-    tech: Vec<&'a str>,
-    favorite_lang: Vec<&'a str>,
+    languages: Vec<&'a str>,
 }
 
-impl Default for Me {
+impl<'a> Default for Me<'a> {
     fn default() -> Self {
         Self {
             name: "NoobTh".into(),
@@ -15,8 +14,8 @@ impl Default for Me {
                 "C++",
                 "Go",
                 "Rust",
-                "Java"
-            ]
+                "Java",
+            ],
         }
     }
 }
