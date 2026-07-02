@@ -1,4 +1,4 @@
-# NoobTh
+# Hello, I'm NoobTh (SeungYeop Ryu)
 ```rust
 #[derive(Debug)]
 struct Me<'a> {
@@ -11,7 +11,7 @@ impl<'a> Default for Me<'a> {
         Self {
             name: "NoobTh".into(),
             languages: vec![
-                "C++", "Go", "Rust", "Java",
+                "C++", "Go", "Rust", "Java", "C#"
             ],
         }
     }
