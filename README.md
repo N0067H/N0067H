@@ -1,4 +1,4 @@
-## N0067H (SeungYeop Ryu)
+## NoobTh (SeungYeop Ryu)
 
 ```rust
 #[derive(Debug)]
