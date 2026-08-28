@@ -1,6 +1,6 @@
 ```rust
 #[derive(Debug)]
-pub struct Engineer {
+pub struct Profile {
     pub name: &'static str,
     pub role: &'static str,
     pub languages: &'static [&'static str],
@@ -8,22 +8,19 @@ pub struct Engineer {
     pub environments: &'static [&'static str],
 }
 
-pub const ME: Engineer = Engineer {
-    name: "SeungYeop Ryu"
+pub const ME: Profile = Profile {
+    name: "SeungYeop Ryu",
     role: "Software Engineer",
-
     languages: &[
         "Rust",
         "C++",
     ],
-
     interests: &[
         "OS Internals",
         "Networking",
         "Programming Languages",
         "Reverse Engineering",
     ],
-
     environments: &[
         "Windows / WSL",
         "Arch Linux",
