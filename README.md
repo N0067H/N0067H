@@ -1,16 +1,32 @@
-## Hi there 👋
+## N0067H (SeungYeop Ryu)
 
-<!--
-**N0067H/N0067H** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```rust
+#[derive(Debug)]
+pub struct Engineer {
+    pub role: &'static str,
+    pub languages: &'static [&'static str],
+    pub interests: &'static [&'static str],
+    pub environments: &'static [&'static str],
+}
 
-Here are some ideas to get you started:
+pub const N0067H: Engineer = Engineer {
+    role: "Software Engineer",
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    languages: &[
+        "Rust",
+        "C++",
+    ],
+
+    interests: &[
+        "OS Internals",
+        "Networking",
+        "Programming Languages",
+        "Reverse Engineering",
+    ],
+
+    environments: &[
+        "Windows / WSL",
+        "Arch Linux",
+    ],
+};
+```
