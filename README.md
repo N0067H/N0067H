@@ -1,8 +1,7 @@
-## NoobTh (SeungYeop Ryu)
-
 ```rust
 #[derive(Debug)]
 pub struct Engineer {
+    pub name: &'static str,
     pub role: &'static str,
     pub languages: &'static [&'static str],
     pub interests: &'static [&'static str],
@@ -10,6 +9,7 @@ pub struct Engineer {
 }
 
 pub const ME: Engineer = Engineer {
+    name: "SeungYeop Ryu"
     role: "Software Engineer",
 
     languages: &[
