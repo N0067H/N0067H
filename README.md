@@ -9,7 +9,7 @@ pub struct Engineer {
     pub environments: &'static [&'static str],
 }
 
-pub const N0067H: Engineer = Engineer {
+pub const ME: Engineer = Engineer {
     role: "Software Engineer",
 
     languages: &[
