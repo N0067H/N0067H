@@ -22,8 +22,7 @@ pub const ME: Profile = Profile {
         "Reverse Engineering",
     ],
     environments: &[
-        "Windows / WSL",
-        "Arch Linux",
+        "NixOs(with Hyprland)",
     ],
 };
 ```
