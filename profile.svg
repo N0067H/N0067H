@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="430" viewBox="0 0 600 430">
+  <style>
+    .bg { fill: #121212; }
+    .code {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 14px;
+      fill: #c9d1d9;
+    }
+    .keyword { fill: #ff7b72; }
+    .type { fill: #d2a8ff; }
+    .field { fill: #79c0ff; }
+    .string { fill: #a5d6ff; }
+    .attribute { fill: #d2a8ff; }
+  </style>
+
+  <rect class="bg" width="600" height="430" rx="10"/>
+
+  <g class="code" xml:space="preserve">
+    <text x="20" y="30" class="attribute">#[derive(Debug)]</text>
+
+    <text x="20" y="52">
+      <tspan class="keyword">pub struct</tspan>
+      <tspan class="type"> Profile</tspan>
+      <tspan> {</tspan>
+    </text>
+
+    <text x="36" y="74">
+      <tspan class="keyword">pub</tspan>
+      <tspan class="field"> name</tspan><tspan>: &amp;'static str,</tspan>
+    </text>
+
+    <text x="36" y="96">
+      <tspan class="keyword">pub</tspan>
+      <tspan class="field"> role</tspan><tspan>: &amp;'static str,</tspan>
+    </text>
+
+    <text x="36" y="118">
+      <tspan class="keyword">pub</tspan>
+      <tspan class="field"> languages</tspan><tspan>: &amp;'static [&amp;'static str],</tspan>
+    </text>
+
+    <text x="36" y="140">
+      <tspan class="keyword">pub</tspan>
+      <tspan class="field"> interests</tspan><tspan>: &amp;'static [&amp;'static str],</tspan>
+    </text>
+
+    <text x="36" y="162">
+      <tspan class="keyword">pub</tspan>
+      <tspan class="field"> environments</tspan><tspan>: &amp;'static [&amp;'static str],</tspan>
+    </text>
+
+    <text x="20" y="184">}</text>
+
+    <text x="20" y="218">
+      <tspan class="keyword">pub const</tspan>
+      <tspan> ME: </tspan>
+      <tspan class="type">Profile</tspan>
+      <tspan> = </tspan>
+      <tspan class="type">Profile</tspan>
+      <tspan> {</tspan>
+    </text>
+
+    <text x="36" y="240">
+      <tspan class="field">name</tspan><tspan>: </tspan>
+      <tspan class="string">"SeungYeop Ryu"</tspan><tspan>,</tspan>
+    </text>
+
+    <text x="36" y="262">
+      <tspan class="field">role</tspan><tspan>: </tspan>
+      <tspan class="string">"Software Engineer"</tspan><tspan>,</tspan>
+    </text>
+
+    <text x="36" y="284">
+      <tspan class="field">languages</tspan><tspan>: &amp;[</tspan>
+      <tspan class="string">"Rust"</tspan><tspan>, </tspan>
+      <tspan class="string">"C++"</tspan><tspan>],</tspan>
+    </text>
+
+    <text x="36" y="306">
+      <tspan class="field">interests</tspan><tspan>: &amp;[</tspan>
+    </text>
+
+    <text x="52" y="328">
+      <tspan class="string">"OS Internals"</tspan><tspan>, </tspan>
+      <tspan class="string">"Networking"</tspan><tspan>,</tspan>
+    </text>
+
+    <text x="52" y="350">
+      <tspan class="string">"Programming Languages"</tspan><tspan>,</tspan>
+    </text>
+
+    <text x="52" y="372">
+      <tspan class="string">"Reverse Engineering"</tspan><tspan>,</tspan>
+    </text>
+
+    <text x="36" y="394">],</text>
+
+    <text x="36" y="416">
+      <tspan class="field">environments</tspan><tspan>: &amp;[</tspan>
+      <tspan class="string">"NixOS (with Hyprland)"</tspan><tspan>],</tspan>
+    </text>
+  </g>
+</svg>
