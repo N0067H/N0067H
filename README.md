@@ -1,6 +1,6 @@
 ## Seungyeop Ryu (a.k.a. NoobTh)
 
-I'm a software engineer working at **@Asteromorph** in Korea.
+I'm a software engineer working at **Asteromorph** in Korea.
 
 <img
   src="https://rustacean.net/assets/rustacean-flat-gesture.png"
@@ -9,7 +9,7 @@ I'm a software engineer working at **@Asteromorph** in Korea.
   alt="Ferris"
 />
 
-I love Rust and C++ have explored them for a long time.  
+I love **Rust** and C++ have explored them for a long time.  
 I'm also interested in OS Internals, Programming Languages, and Reverse Engineering.
 
 <br />
