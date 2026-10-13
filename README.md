@@ -1,29 +1,15 @@
+## Seungyeop Ryu (a.k.a. NoobTh)
 
-```rust
-#[derive(Debug)]
-pub struct Profile {
-    pub name: &'static str,
-    pub role: &'static str,
-    pub languages: &'static [&'static str],
-    pub interests: &'static [&'static str],
-    pub environments: &'static [&'static str],
-}
+I'm a software engineer working at **@Asteromorph** in Korea.
 
-pub const ME: Profile = Profile {
-    name: "SeungYeop Ryu",
-    role: "Software Engineer",
-    languages: &[
-        "Rust",
-        "C++",
-    ],
-    interests: &[
-        "OS Internals",
-        "Networking",
-        "Programming Languages",
-        "Reverse Engineering",
-    ],
-    environments: &[
-        "NixOS (with Hyprland)",
-    ],
-};
-```
+<img
+  src="https://rustacean.net/assets/rustacean-flat-gesture.png"
+  align="left"
+  width="80"
+  alt="Ferris"
+/>
+
+I love Rust and C++ have explored them for a long time.  
+I'm also interested in OS Internals, Programming Languages, and Reverse Engineering.
+
+> Discord **@n0067h** | Instagram **@yx0o.p** | LinkedIn **in/noobth**
