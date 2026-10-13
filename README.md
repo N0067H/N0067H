@@ -9,8 +9,8 @@ I'm a software engineer working at **Asteromorph** in Korea.
   alt="Ferris"
 />
 
-I love **Rust** and C++ have explored them for a long time.  
-I'm also interested in OS Internals, Programming Languages, and Reverse Engineering.
+I love **Rust** and **C++** have explored them for a long time.  
+I'm also interested in **OS Internals**, **Programming Languages**, and **Reverse Engineering**.
 
 <br />
 
