@@ -14,5 +14,5 @@ I'm also interested in **OS Internals**, **Programming Languages**, and **Revers
 
 <br />
 
-> Personal n006h3417h@gmail.com | Business sy.ryu@asteromorph.com\
+> Personal n006h3417h@gmail.com
 > Discord **@n0067h** | Instagram **@yx0o.p** | LinkedIn **in/noobth**
